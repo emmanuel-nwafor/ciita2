@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    height: 10vh;
+}
+.container .container2 {
+    margin-right: 100px;
+    margin: 10px;
+}
+.container .container2 a {
+    text-decoration: none;
+    color: bisque;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 15px;
+    /* font-weight: bolder; */
+}
+.container .container2 a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+
+
+.body2 {
+    height: 55vh;
+    background-image: url("IMG-20240829-WA0057.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.body2 p {
+    columns: white;
+}
+.about {
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.about h2 {
+    margin: 12px;
+}
+.about p {
+    margin: 20px;
+}
